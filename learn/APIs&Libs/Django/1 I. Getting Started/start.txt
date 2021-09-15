@@ -1,0 +1,14 @@
+# I. Getting Started
+# in cmd
+pip install django
+django-admin startproject django_project
+python manage.py runserver
+
+# II. Applications and Routes
+# in cmd
+python manage.py startapp blog
+# in the directory: views.py
+imported HttpResponse and created a home() function that returns an HttpResponse with <h1> element
+# Created a directory: urls.py
+copied code from django project, imported views, changed urlpatterns
+# in directory urls.py for django_project
